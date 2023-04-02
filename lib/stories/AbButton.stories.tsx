@@ -7,6 +7,18 @@ export default {
   component: AbButton,
 } as Meta;
 
-const Template: StoryFn<typeof AbButton> = () => <AbButton />;
+const Template: StoryFn<typeof AbButton> = (args) => <AbButton {...args} />;
 
 export const Primary = Template.bind({});
+
+Primary.args = {
+  buttonStyle: "primary",
+  text: "Primary button",
+};
+
+export const Secondary = Template.bind({});
+
+Secondary.args = {
+  buttonStyle: "secondary",
+  text: "Secondary button",
+};
