@@ -1,13 +1,9 @@
 import { GlobalStyle } from "../../styles/global";
-import {
-  AbTextFieldInput,
-  AbTextFieldLabel,
-  AbTextFieldWrapper,
-} from "./style";
+import { AbTextFieldInput, AbTextFieldLabel } from "./style";
 import { AbTextFieldProps } from "./types";
 
 const AbTextField = ({
-  type,
+  type = "text",
   placeholder,
   label,
   id,
@@ -15,7 +11,7 @@ const AbTextField = ({
   onChange,
 }: AbTextFieldProps) => {
   return (
-    <AbTextFieldWrapper>
+    <div>
       <GlobalStyle />
       <AbTextFieldLabel htmlFor={id}>{label}</AbTextFieldLabel>
       <AbTextFieldInput
@@ -29,7 +25,7 @@ const AbTextField = ({
           }
         }}
       />
-    </AbTextFieldWrapper>
+    </div>
   );
 };
 

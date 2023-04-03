@@ -5,22 +5,19 @@ export const AbTextFieldLabel = styled.label`
   color: ${colors.blue};
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 4px;
-  margin-left: 12px;
+  margin-bottom: 8px;
+  margin-left: 16px;
 `;
 
 export const AbTextFieldInput = styled.input`
   font-size: 16px;
   border: 1px solid ${colors.blue};
-  border-radius: 18px;
-  padding: 8px 12px;
+  border-radius: 45px;
+  padding: 8px 24px;
+  line-height: 24px;
+  width: 100%;
 
   &:placeholder {
     color: ${colors.gray};
   }
-`;
-
-export const AbTextFieldWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
 `;
