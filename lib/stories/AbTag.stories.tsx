@@ -8,8 +8,8 @@ export default {
 
 const Template: StoryFn<typeof AbTag> = (args) => <AbTag {...args} />;
 
-export const Card = Template.bind({});
+export const Tag = Template.bind({});
 
-Card.args = {
+Tag.args = {
   text: "React",
 };
