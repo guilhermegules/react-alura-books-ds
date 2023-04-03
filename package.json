@@ -2,6 +2,10 @@
   "name": "ggm-alura-books-ds",
   "version": "0.2.0",
   "type": "module",
+  "author": {
+    "name": "Guilherme Gules Moreira",
+    "email": "guilhermegules@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
