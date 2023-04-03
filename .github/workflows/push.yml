@@ -6,6 +6,13 @@ on:
 
 jobs:
   release:
+    permissions:
+      actions: read
+      checks: read
+      contents: read
+      deployments: write
+      id-token: read
+      packages: write
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
