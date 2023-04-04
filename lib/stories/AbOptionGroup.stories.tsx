@@ -1,6 +1,5 @@
 import { Meta, StoryFn } from "@storybook/react";
 import AbGroupOption from "../components/AbOptionGroup";
-import { AbOptionGroupProps } from "../components/AbOptionGroup/types";
 
 export default {
   title: "Components/AbGroupOption",
