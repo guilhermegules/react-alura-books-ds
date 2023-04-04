@@ -1,3 +1,15 @@
+# v0.2.4 (Tue Apr 04 2023)
+
+#### 🐛 Bug Fix
+
+- feat(AbQuantityField): create quantity component [#1](https://github.com/guilhermegules/react-alura-books-ds/pull/1) ([@guilhermegules](https://github.com/guilhermegules))
+
+#### Authors: 1
+
+- Guilherme Gules ([@guilhermegules](https://github.com/guilhermegules))
+
+---
+
 # v0.2.3 (Mon Apr 03 2023)
 
 #### ⚠️ Pushed to `main`
